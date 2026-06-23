@@ -1,0 +1,34 @@
+body{
+    
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+h1{
+    text-align:center;
+    color:#615569;
+}
+p{
+    font-size:20px;
+    line-height:1.8;
+    color:#302222;
+    background:#1869ba;
+}
+
+/* First Line */
+p::first-line{
+    color:#869fc6;
+    font-weight:bold;
+}
+
+/* First Letter */
+p::first-letter{
+    color:#ff0000;
+    font-size:45px;
+    font-weight:bold;
+}
+
+/* Selected Text */
+p::selection{
+    background:#ffeb3b;
+    color:#000;
+}
